@@ -13,6 +13,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
+		//arguments -i (Image) -f (Files to be hidden) -s (Stego to start or anything to undo)
 		start(args);
 	}
 
@@ -24,7 +25,6 @@ public class Main {
 		options.addOption(Option.builder("f").hasArgs().build());
 		options.addOption(Option.builder("c").hasArgs().build());
 		options.addOption(Option.builder("s").hasArgs().build());
-		options.addOption(Option.builder("d").hasArgs().build());
 		CommandLineParser parser = new DefaultParser();
 		CommandLine cmd = parser.parse(options, args);
 		if (!cmd.hasOption("i")) {
