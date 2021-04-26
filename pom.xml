@@ -10,7 +10,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<apache.commmons-io.version>2.6</apache.commmons-io.version>
+		<apache.commmons-io.version>2.7</apache.commmons-io.version>
 		<apache.commmons.cli.version>1.4</apache.commmons.cli.version>
 	</properties>
 
